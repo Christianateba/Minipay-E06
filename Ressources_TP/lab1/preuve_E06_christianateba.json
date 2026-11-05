@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "chapitre": 1,
+  "equipe": "E06",
+  "membre": "christianateba",
+  "date_utc": "2026-11-05T23:56:36+00:00",
+  "parametres": {
+    "timeout_s": 1,
+    "delai_serveur_s": 2,
+    "montant": 1000
+  },
+  "mesures": {
+    "latence_connexion_ms_moy": 52.7463,
+    "latence_connexion_ms_min": 0.0383,
+    "duree_scenario_a_s": 2.003,
+    "duree_scenario_b_s": 2.002
+  },
+  "resultats": {
+    "executions_sans_idempotence": 2,
+    "executions_avec_idempotence": 1
+  },
+  "fichiers": {
+    "serveur_py": true,
+    "client_py": true,
+    "client_reessaie": true
+  },
+  "environnement": {
+    "python": "3.14.2",
+    "systeme": "Linux",
+    "hote": "77fcf37a48"
+  },
+  "git": {
+    "commits": "2",
+    "auteur": "Christianateba"
+  },
+  "empreinte": "5de93577cbc13e1cd46f3a0d3ab2e9115d8d203ece6f63f150144af782476c9a"
+}
