@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "chapitre": 2,
+  "equipe": "E06",
+  "membre": "Nom Prenom",
+  "date_utc": "2026-11-06T01:04:00+00:00",
+  "parametres": {
+    "timeout_s": 1,
+    "delai_serveur_s": 2,
+    "montant": 1000
+  },
+  "mesures": {
+    "latence_paiement_ms_moy": 14.731,
+    "redemarrage_paiement_s": 0.77
+  },
+  "resultats": {
+    "sante_initiale": true,
+    "paiement_ok": true,
+    "idempotence_ok": true,
+    "degrade_notification_ok": true,
+    "isolation_paiement_ok": true,
+    "reprise_ok": true
+  },
+  "environnement": {
+    "python": "3.14.2",
+    "systeme": "Linux",
+    "hote": "77fcf37a48"
+  },
+  "empreinte": "b85224402acc4dd1eea9a9e544911595093e1a43ea5320ba5e0f2e9be8be390e"
+}
