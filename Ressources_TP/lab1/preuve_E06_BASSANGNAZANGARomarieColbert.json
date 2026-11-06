@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "chapitre": 1,
+  "equipe": "E06",
+  "membre": "BASSANG'NA ZANGA Romarie Colbert",
+  "date_utc": "2026-11-06T02:28:56+00:00",
+  "parametres": {
+    "timeout_s": 1,
+    "delai_serveur_s": 2,
+    "montant": 1000
+  },
+  "mesures": {
+    "latence_connexion_ms_moy": 51.8921,
+    "latence_connexion_ms_min": 0.037,
+    "duree_scenario_a_s": 2.005,
+    "duree_scenario_b_s": 2.002
+  },
+  "resultats": {
+    "executions_sans_idempotence": 2,
+    "executions_avec_idempotence": 1
+  },
+  "fichiers": {
+    "serveur_py": true,
+    "client_py": true,
+    "client_reessaie": true
+  },
+  "environnement": {
+    "python": "3.14.2",
+    "systeme": "Linux",
+    "hote": "fe7acd422d"
+  },
+  "git": {
+    "commits": "6",
+    "auteur": "romaricbassangna"
+  },
+  "empreinte": "c3b065490e6aaada9fb4ce4fd0f9801314f1e816556bc44d2275f353e0dc977d"
+}
